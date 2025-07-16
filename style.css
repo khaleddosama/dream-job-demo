@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(207, 201, 201);
+  padding: 5px;
+}
+header ul {
+  position: absolute;
+  left: 72%;
+  top: 4%;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(31, 129, 138);
+  margin-top: 0px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+.content h2 {
+ margin: 20px 0 0 10px;
+ 
+}
+.content h3 {
+  margin: 10px 0 0 15px;
+ 
+}
+.content .web{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 60%;
+    font-size: larger;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.content .one{
+    width: 270px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+.content .learn{
+    line-height: 25px;
+}
+.content .two{
+    width: 100px;
+    position: absolute;
+    top: 82%;
+    right: 60%;
+}
+hr{
+    background-color: rgb(31, 129, 138);
+    height: 2px;
+    border: none;
+}
+.content .about{
+    margin: 30px 0 0 20px;
+}
+.content .me{
+    margin-left: 25px;
+    width: 60%;
+    font-size: larger;
+}
+.content .skills{
+    line-height: 25px;
+
+}
