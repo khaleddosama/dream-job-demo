@@ -69,3 +69,59 @@ hr{
     line-height: 25px;
 
 }
+footer .text-area{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(227, 227, 227);
+  border-radius: 10px;
+  margin-left: 65%;
+  border: 1px black solid;
+}
+footer h2{
+  padding: 20px 20px 0px 20px;
+}
+footer input{
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25%; 
+}
+footer .name{
+  position: relative;
+  left: 20px;
+  position: absolute;
+  top: 125%;
+  left: 66%;
+}
+footer .email{
+  position: relative;
+  left: 35px;
+   position: absolute;
+  top: 125%;
+  left: 83%;
+}
+footer .text{
+  width: 350px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 150px;
+  position: absolute;
+  top: 190%;
+  right: 60px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0px 0px 10px;
+}
+footer button{
+  position: absolute;
+  top: 222%;
+  left:77% ;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  cursor: pointer;
+}
