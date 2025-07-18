@@ -5,6 +5,10 @@ body {
 header {
   background-color: rgb(207, 201, 201);
   padding: 5px;
+  transition: all 0.5s 0.2s ease;
+}
+header:hover {
+  padding-bottom: 30px;
 }
 header ul {
   position: absolute;
@@ -22,85 +26,89 @@ header ul a {
   width: 90px;
 }
 .content h2 {
- margin: 20px 0 0 10px;
- 
+  margin: 20px 0 0 10px;
 }
 .content h3 {
   margin: 10px 0 0 15px;
- 
 }
-.content .web{
-    margin-top: 10px;
-    margin-left: 25px;
-    width: 60%;
-    font-size: larger;
-    word-spacing: 2px;
-    line-height: 25px;
+.content .web {
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 60%;
+  font-size: larger;
+  word-spacing: 2px;
+  line-height: 25px;
 }
-.content .one{
-    width: 270px;
-    position: absolute;
-    top: 25%;
-    right: 5%;
+.content .one {
+  width: 270px;
+  position: absolute;
+  top: 25%;
+  right: 5%;
 }
-.content .learn{
-    line-height: 25px;
+.content .learn {
+  line-height: 25px;
 }
-.content .two{
-    width: 100px;
-    position: absolute;
-    top: 82%;
-    right: 60%;
+.content .two {
+  width: 100px;
+  position: absolute;
+  top: 82%;
+  right: 60%;
 }
-hr{
-    background-color: rgb(31, 129, 138);
-    height: 2px;
-    border: none;
+hr {
+  background-color: rgb(31, 129, 138);
+  height: 2px;
+  border: none;
 }
-.content .about{
-    margin: 30px 0 0 20px;
+.content .about {
+  margin: 30px 0 0 20px;
 }
-.content .me{
-    margin-left: 25px;
-    width: 60%;
-    font-size: larger;
+.content .me {
+  margin-left: 25px;
+  width: 60%;
+  font-size: larger;
 }
-.content .skills{
-    line-height: 25px;
-
+.content .skills {
+  line-height: 25px;
 }
-footer .text-area{
+footer .text-area {
   width: 400px;
   height: 400px;
   background-color: rgb(227, 227, 227);
   border-radius: 10px;
   margin-left: 65%;
   border: 1px black solid;
+  transition: all 1s 0.2s ease;
 }
-footer h2{
+footer .text-area:hover {
+  border-color: brown;
+  background-color: aliceblue;
+}
+footer h2 {
   padding: 20px 20px 0px 20px;
 }
-footer input{
+footer input {
   height: 25px;
   border: none;
   border-radius: 5px;
-  margin-top: 25%; 
+  margin-top: 25%;
 }
-footer .name{
+footer .name {
   position: relative;
   left: 20px;
   position: absolute;
   top: 125%;
   left: 66%;
+  padding-left: 5px;
 }
-footer .email{
+footer .email {
   position: relative;
   left: 35px;
-   position: absolute;
+  position: absolute;
   top: 125%;
   left: 83%;
+  padding-left: 5px;
 }
-footer .text{
+footer .text {
   width: 350px;
   padding-left: auto;
   padding-right: auto;
@@ -112,10 +120,10 @@ footer .text{
   border-radius: 10px;
   padding: 10px 0px 0px 10px;
 }
-footer button{
+footer button {
   position: absolute;
   top: 222%;
-  left:77% ;
+  left: 77%;
   background-color: #4a90e2;
   color: white;
   border: none;
