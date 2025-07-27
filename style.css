@@ -45,14 +45,65 @@ header ul a {
   top: 25%;
   right: 5%;
 }
+.content .def p{
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 60%;
+  font-size: larger;
+  word-spacing: 2px;
+  line-height: 25px;
+} 
+.content .fields p{
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 60%;
+  font-size: larger;
+  word-spacing: 2px;
+  line-height: 25px;
+}
 .content .learn {
   line-height: 25px;
 }
-.content .two {
-  width: 100px;
+.content .games{
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 50%;
+  font-size: 25px;
+  font-weight: 500;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.content .learning .links a{
+  text-decoration: none;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 15px;
+  width: 50px;;
+  color: black;
+  margin-left: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: space-evenly;
+  margin-bottom: 15px; 
+  transition: all 1s 0.3s;
+}
+.content .learning .links a:hover{
+  background-color: rgb(252, 152, 170);
+  width: 75px;
+  height: 20px;
+}
+.content .three{
+  width: 250px;
   position: absolute;
-  top: 82%;
-  right: 60%;
+  top: 145%;
+  right: 10%;
+}
+.content .two {
+  width: 200px;
+  position: absolute;
+  top: 90%;
+  right: 10%;
 }
 hr {
   background-color: rgb(31, 129, 138);
@@ -76,6 +127,7 @@ footer .text-area {
   background-color: rgb(227, 227, 227);
   border-radius: 10px;
   margin-left: 55%;
+  margin-top: 20px;
   border: 1px black solid;
   transition: all 1s 0.2s ease;
 }
@@ -84,7 +136,7 @@ footer .text-area:hover {
   background-color: aliceblue;
 }
 footer h2 {
-  padding: 20px 20px 0px 20px;
+  padding: 10px 20px 0px 20px;
 }
 footer input {
   height: 25px;
@@ -96,7 +148,7 @@ footer .name {
   position: relative;
   left: 20px;
   position: absolute;
-  top: 125%;
+  top: 227%;
   left: 56%;
   padding-left: 5px;
 }
@@ -104,7 +156,7 @@ footer .email {
   position: relative;
   left: 35px;
   position: absolute;
-  top: 125%;
+  top: 227%;
   left: 73%;
   padding-left: 5px;
 }
@@ -114,7 +166,7 @@ footer .text {
   padding-right: auto;
   height: 150px;
   position: absolute;
-  top: 190%;
+  top: 290%;
   left: 57%;
   border: none;
   border-radius: 10px;
@@ -122,7 +174,7 @@ footer .text {
 }
 footer button {
   position: absolute;
-  top: 222%;
+  top: 322%;
   left: 67%;
   background-color: #4a90e2;
   color: white;
@@ -133,9 +185,9 @@ footer button {
   padding: 10px;
   cursor: pointer;
 }
-.contact .contact-2{
+.contact .contact-2 {
   position: absolute;
-  top: 165%;
+  top: 268%;
   font-size: larger;
   margin-left: 20px;
 }
