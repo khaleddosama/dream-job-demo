@@ -124,7 +124,7 @@ hr {
 footer .text-area {
   width: 400px;
   height: 400px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(121, 121, 121);
   border-radius: 10px;
   margin-left: 55%;
   margin-top: 20px;
@@ -132,8 +132,8 @@ footer .text-area {
   transition: all 1s 0.2s ease;
 }
 footer .text-area:hover {
-  border-color: brown;
-  background-color: aliceblue;
+  border-color: rgb(37, 35, 35);
+  background-color: rgb(87, 90, 93);
 }
 footer h2 {
   padding: 10px 20px 0px 20px;
