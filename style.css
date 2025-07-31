@@ -187,7 +187,38 @@ footer button {
 }
 .contact .contact-2 {
   position: absolute;
-  top: 268%;
+  top: 275%;
   font-size: larger;
   margin-left: 20px;
 }
+.social h3{
+  margin: 10px 0 0 55px;
+  position: absolute;
+  top: 300%;
+  left: 5%;
+  font-size: 25px;
+}
+.social ul{
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  justify-content: space-between;
+  list-style: none;
+}
+.github{
+  position: absolute;
+  top: 310%;
+  left: 8%;
+}
+.facebook{
+  position: absolute;
+  top: 309%;
+  left: 12%;
+}
+.linkedin{
+  position: absolute;
+  top: 308.2%;
+  left: 16%;
+}
+
+
